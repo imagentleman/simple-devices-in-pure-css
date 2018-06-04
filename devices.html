@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Testy McTest</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  body {
+    background-color: #EA178C;
+    margin: 40px 0;
+  }
+
+  .toolbar {
+    letter-spacing: 6px;
+    font-size: 30px;
+    color: #9a9a9a;
+    padding-left: 10px;
+    background-color: #ddd;
+    border-radius: 3px 3px 0 0;
+    height: 40px;
+  }
+
+  .desktop {
+    box-shadow: rgba(0, 0, 0, 0.55) 0 0 68px;
+    display: flex;
+    flex-direction: column;
+    height: 625px;
+    margin: 0 auto;
+    width: 1000px;
+  }
+
+  .desktop-content {
+    background-color: #fff;
+    border-radius: 0 0 3px 3px;
+    height: 100%;
+  }
+
+  .phone {
+    background-color: black;
+    border: 12px solid black;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0 0 68px;
+    height: 750px;
+    margin: 0 auto;
+    width: 375px;
+  }
+
+  .phone-content {
+    background-color: white;
+    border-radius: 12px;
+    height: 100%;
+  }
+
+  .desktop,
+  .phone +
+  .desktop,
+  .phone {
+    margin-top: 40px;
+  }
+</style>
+
+<div class="desktop">
+  <div class="toolbar">•••</div>
+
+  <div class="desktop-content">
+
+  </div>
+</div>
+
+<div class="phone">
+  <div class="phone-content">
+
+  </div>
+</div>
